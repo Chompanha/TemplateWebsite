@@ -1,0 +1,613 @@
+
+body{
+    font-family: "Manrope", sans-serif;
+}
+
+
+.sBtn1 a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #1F3BB3;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+}
+.sBtn1 a:hover{
+    background-color: #182a7b;
+}
+
+/* Single Button */
+.btn{
+    background-color: rgb(223, 163, 163);
+    border-radius: 15px;
+    padding: 15px;
+}
+.sBtn2 a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #f1f1f1;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+}
+.sBtn2 a:hover{
+    background: #fff1f1;
+}
+.singleColorbtn{
+   display:flex;
+   flex-direction: row;
+   gap: 10px;
+   flex-flow: wrap;
+  
+
+}
+.sBtn3 a{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #34B1AA;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+}
+.sBtn3 a:hover{
+    background: #28938e;
+}
+
+.sBtn4 a{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #F95F53;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin: auto; 
+    margin-top: 15px;
+}
+.sBtn4 a:hover{
+    background: #d83d32;
+}
+.sBtn5 a{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #FFAF00;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;   
+}
+.sBtn5 a:hover{
+    background: #bb8000;
+}
+.sBtn6 a{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #52CDFF;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin: auto; 
+    margin-top: 15px;  
+}
+.sBtn6 a:hover{
+    background: #0090c9;
+}
+.sBtn7 a{
+    color: #1E283D;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #FBFBFB;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin: auto;  
+    margin-top: 15px; 
+}
+.sBtn7 a:hover{
+    background: #dfdfdf;  
+}
+.sBtn8 a{
+    color: #FBFBFB;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #1E283D;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin: auto; 
+    margin-top: 15px;
+}
+.sBtn8 a:hover{
+    background: #10131b;
+}
+/* Rouneded Button */
+.btn1{
+    background-color: rgb(225, 167, 167);
+    border-radius: 15px;
+    padding: 15px;
+}
+.roundedBtn{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-flow: wrap;
+}
+.rBtn1 a{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #1F3BB3;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 15px;
+}
+.rBtn1 a:hover{
+    background-color: #182a7b;
+}
+.rBtn2 a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #f1f1f1;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 15px;
+}
+.rBtn2 a:hover{
+    background: #fff1f1;
+}
+
+
+.rBtn3 a{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #34B1AA;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 15px;
+}
+.rBtn3 a:hover{
+    background: #28938e;
+}
+
+.rBtn4 a{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #F95F53;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 40px;
+    margin: auto; 
+    margin-top: 15px;
+}
+.rBtn4 a:hover{
+    background: #d83d32;
+}
+.rBtn5 a{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #FFAF00;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 15px;   
+}
+.rBtn5 a:hover{
+    background: #bb8000;
+}
+.rBtn6 a{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #52CDFF;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 40px;
+    margin: auto; 
+    margin-top: 15px;  
+}
+.rBtn6 a:hover{
+    background: #0090c9;
+}
+.rBtn7 a{
+    color: #1E283D;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #FBFBFB;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 40px;
+    margin: auto;  
+    margin-top: 15px; 
+}
+.rBtn7 a:hover{
+    background: #dfdfdf;  
+}
+.rBtn8 a{
+    color: #FBFBFB;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #1E283D;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 40px;
+    margin: auto; 
+    margin-top: 15px;
+}
+.rBtn8 a:hover{
+    background: #10131b;
+}
+
+
+/* OutLineButton */
+.btn2{
+    background-color: rgb(219, 190, 190);
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-flow: wrap;
+
+}
+.outlineBtn{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-flow: wrap;
+}
+.oBtn1 a{
+    color: #1E283D;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #f1f1f1;
+    text-decoration: none;
+    padding: 14px 24px;
+    border: 2px solid #182a7b;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 15px;
+}
+.oBtn1 a:hover{
+    background-color: #182a7b;
+}
+.oBtn2 a{
+    color: #1E283D;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #f1f1f1;
+    text-decoration: none;
+    padding: 14px 24px;
+    border: 2px solid #fff1f1;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 15px;
+}
+.oBtn2 a:hover{
+    background: #fff1f1;
+}
+
+
+.oBtn3 a{
+    color: #1E283D;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #f1f1f1;
+    text-decoration: none;
+    padding: 14px 24px;
+    border: 2px solid #28938e;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 15px;
+}
+.oBtn3 a:hover{
+    background: #28938e;
+}
+
+.oBtn4 a{
+    color: #1E283D;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #f1f1f1;
+    text-decoration: none;
+    padding: 14px 24px;
+    border: 2px solid #d83d32;
+    border-radius: 7px;
+    margin: auto; 
+    margin-top: 15px;
+}
+.oBtn4 a:hover{
+    background: #d83d32;
+}
+.oBtn5 a{
+    color: #1E283D;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #f1f1f1;
+    text-decoration: none;
+    padding: 14px 24px;
+    border: 2px solid #bb8000;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 15px;   
+}
+.oBtn5 a:hover{
+    background: #bb8000;
+}
+.oBtn6 a{
+    color: #1E283D;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #f1f1f1;
+    text-decoration: none;
+    padding: 14px 24px;
+    border: 2px solid #0090c9;
+    border-radius: 7px;
+    margin: auto; 
+    margin-top: 15px;  
+}
+.oBtn6 a:hover{
+    background: #0090c9;
+}
+.oBtn7 a{
+    color: #1E283D;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #f1f1f1;
+    text-decoration: none;
+    padding: 14px 24px;
+    border: 2px solid #dfdfdf;
+    border-radius: 7px;
+    margin: auto;  
+    margin-top: 15px; 
+}
+.oBtn7 a:hover{
+    background: #dfdfdf;  
+}
+.oBtn8 a{
+    color: #1E283D;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #f1f1f1;
+    text-decoration: none;
+    padding: 14px 24px;
+    border: 2px solid #10131b;
+    border-radius: 7px;
+    margin: auto; 
+    margin-top: 15px;
+}
+.oBtn8 a:hover{
+    background: #10131b;
+}
+.iconBtn{
+
+        display:flex;
+        flex-direction: row;
+        gap: 10px;
+        flex-flow: wrap;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    margin-left: 5%;
+  }
+  .card img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+
+}
+.card{
+   
+    gap: 10px;
+    flex-basis: 30%;
+    flex-flow: wrap;
+    
+}
+  .wrap {
+      flex-wrap: wrap;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgb(255, 4, 4);
+  }
+  .info{
+      padding: 5px 20px;
+  }
+
+  /* Slide Show */
+/* 
+  @-webkit-keyframes slide_Show{
+      0% {left:0px}
+      10%{left:0px}
+      20%{left:1200px}
+      30%{left:1200px}
+      40%{left:2400px}
+      50%{left:2400px}
+      60%{left:1200px}
+      70%{left:1200px}
+      80% {left:0px}
+      90%{left:0px}
+      100%{left:0px}
+  }
+  .slide-image{
+      width: 3600px;
+      height: 800px;
+      margin: 0 0 0 -2400px;
+      -webkit-animation-name: slide_Show;
+      -webkit-animation-duration: 10s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      -webkit-animation-play-state: running;
+  }
+  .image-container{
+      height: 500px;
+      width: 1200px;
+      position: relative;
+      float: left;
+  } */
+
+  .main{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .ul{
+      
+      color: rgb(40, 57, 255);
+  }
+  .footer{
+      background-color:  rgb(223, 163, 163) ;
+      padding: 80px 0;
+  }
+  .colunm{
+    width: 25%;
+    padding: 0 15px; 
+  }
+    .colunm h2{
+        font-size: 18px;
+        color: #fbfbfb;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        position: relative;
+    }
+
+    .colunm h2::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+        bottom: -10px;
+        background-color: #8f2b4c;
+    }
+    .colunm ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #9e1919;
+        display: block;
+        transition: all 0.1s ease;
+    }
+
+    .colunm ul li{
+        list-style: none;
+    }
+    .colunm ul li :hover{
+        color: rgb(165, 0, 116);
+    }
+    .mySlides {
+        display:none;}
+
+
+
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ad {
+            margin-left: 40px;
+        }
+
+        .containerss {
+            width: 90%;
+            margin: auto;
+        }

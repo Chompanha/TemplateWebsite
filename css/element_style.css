@@ -1,0 +1,102 @@
+
+body{
+    font-family: "Manrope", sans-serif;
+}
+
+
+.sBtn1 a{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #1F3BB3;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin: auto;
+   
+}
+.sBtn1 a:hover{
+    background-color: #182a7b;
+}
+.btn{
+    background-color: rgb(170, 143, 143);
+    border-radius: 15px;
+    padding: 15px;
+}
+.sBtn2 a{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #f1f1f1;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+.sBtn2 a:hover{
+    background: #fff1f1;
+}
+.singleColorbtn{
+   display:flex;
+   flex-direction: row;
+   gap: 10px;
+
+}
+.sBtn3 a{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #34B1AA;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+.sBtn3 a:hover{
+    background: #28938e;
+}
+
+.sBtn4 a{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #F95F53;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin: auto; 
+   
+}
+.sBtn4 a:hover{
+    background: #d83d32;
+}
+.sBtn5 a{
+    color: white;
+    font-size: 20px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background: #FFAF00;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin: auto;   
+}
+.sBtn5 a:hover{
+    background: #bb8000;
+}

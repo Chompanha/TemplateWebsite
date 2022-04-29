@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- SIDE BAR -->
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <div class="text logo-text">
+                    <span class="name effect">Template </span>
+                    <span class="profession effect">Collection</span>
+                </div>
+            </div>
+
+            <i class="bx bx-chevron-right toggle"></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class="bx bx-search icon"></i>
+                    <input type="text" placeholder="Search..." />
+                </li>
+
+                <li class="nav-links">
+                    <a href="../index.html">
+                        <i class="bx bx-bar-chart-alt-2 icon"></i>
+                        <span class="text nav-text">Dashboard</span>
+                    </a>
+                </li>
+
+                <li class="nav-links">
+                    <a href="SamplePage2.html">
+                        <i class="bx bx-book-open icon"></i>
+                        <span class="text nav-text">Sample Page</span>
+                    </a>
+                </li>
+
+                <li class="nav-links">
+                    <a href="table.html">
+                        <i class="bx bx-table icon"></i>
+                        <span class="text nav-text">Table</span>
+                    </a>
+                </li>
+
+                <li class="nav-links">
+                    <a href="form.html">
+                        <i class="bx bx-log-in icon"></i>
+                        <span class="text nav-text">Form</span>
+                    </a>
+                </li>
+
+                <li class="nav-links">
+                    <a href="newelement.html">
+                        <i class="bx bxs-component icon"></i>
+                        <span class="text nav-text">Element</span>
+                    </a>
+                </li>
+
+                <li class="nav-links">
+                    <a href="animation.html">
+                        <i class="bx bx-font-family icon"></i>
+                        <span class="text nav-text">Animation</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SIDE BAR  -->
+
+    <!-- MAIN SECTION -->
+
+    <section class="home">
+        <div class="text">Form</div>
+        <div class="container-{breakpoint} mx-4">
+            <div class="row">
+                <div class="col-xl-6 mt-3">
+                    <div class="container-fluid px-5 py-4">
+                        <h4 class="text-center mb-5 mt-3">Login Form</h4>
+                        <form>
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form2Example1" class="form-control" />
+                                <label class="form-label" for="form2Example1">Email address</label>
+                            </div>
+
+                            <!-- Password input -->
+                            <div class="form-outline mb-4">
+                                <input type="password" id="form2Example2" class="form-control" />
+                                <label class="form-label" for="form2Example2">Password</label>
+                            </div>
+
+                            <!-- 2 column grid layout for inline styling -->
+                            <div class="row mb-4 text-center">
+                                <div class="col d-flex justify-content-center">
+                                    <!-- Checkbox -->
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="form2Example34"
+                                            checked />
+                                        <label class="form-check-label" for="form2Example34">
+                                            Remember me
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <!-- Simple link -->
+                                    <a href="#!">Forgot password?</a>
+                                </div>
+                            </div>
+
+                            <!-- Submit button -->
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary btn-block mb-4">
+                                    Sign in
+                                </button>
+                            </div>
+
+                            <!-- Register buttons -->
+                            <div class="text-center">
+                                <p>Not a member? <a href="#!">Register</a></p>
+                                <p>or sign up with:</p>
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-google"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-6 mt-3">
+                    <div class="container-fluid px-5 py-4">
+                        <h4 class="text-center mb-5 mt-3">Register form</h4>
+                        <form>
+                            <!-- 2 column grid layout with text inputs for the first and last names -->
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <input type="text" id="form3Example1" class="form-control" />
+                                        <label class="form-label" for="form3Example1">First name</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <input type="text" id="form3Example2" class="form-control" />
+                                        <label class="form-label" for="form3Example2">Last name</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form3Example3" class="form-control" />
+                                <label class="form-label" for="form3Example3">Email address</label>
+                            </div>
+
+                            <!-- Password input -->
+                            <div class="form-outline mb-4">
+                                <input type="password" id="form3Example4" class="form-control" />
+                                <label class="form-label" for="form3Example4">Password</label>
+                            </div>
+
+                            <!-- Checkbox -->
+                            <div class="form-check d-flex justify-content-center mb-4">
+                                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33"
+                                    checked />
+                                <label class="form-check-label" for="form2Example33">
+                                    Subscribe to our newsletter
+                                </label>
+                            </div>
+
+                            <!-- Submit button -->
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary btn-block mb-4">
+                                    Sign up
+                                </button>
+                            </div>
+
+                            <!-- Register buttons -->
+                            <div class="text-center">
+                                <p>or sign up with:</p>
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-google"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-6 mt-3">
+                    <div class="container-fluid px-5 py-4">
+                        <h4 class="text-center mb-5 mt-3">Contact Form</h4>
+                        <form>
+                            <!-- Name input -->
+                            <div class="form-outline mb-4">
+                                <input type="text" id="form4Example1" class="form-control" />
+                                <label class="form-label" for="form4Example1">Name</label>
+                            </div>
+
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form4Example2" class="form-control" />
+                                <label class="form-label" for="form4Example2">Email address</label>
+                            </div>
+
+                            <!-- Message input -->
+                            <div class="form-outline mb-4">
+                                <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                                <label class="form-label" for="form4Example3">Message</label>
+                            </div>
+
+                            <!-- Checkbox -->
+                            <div class="form-check d-flex justify-content-center mb-4">
+                                <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4"
+                                    checked />
+                                <label class="form-check-label" for="form4Example4">
+                                    Send me a copy of this message
+                                </label>
+                            </div>
+
+                            <!-- Submit button -->
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary btn-block mb-4">
+                                    Send
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-6 mt-3">
+                    <div class="container-fluid px-5 py-4">
+                        <h4 class="text-center mb-5 mt-3">Login/Register Form</h4>
+                        <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">
+                                    Login
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">
+                                    Register
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <form>
+                                    <div class="text-center mb-3">
+                                        <p>Sign in with:</p>
+                                        <button type="button" class="btn btn-primary btn-floating mx-1">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </button>
+
+                                        <button type="button" class="btn btn-primary btn-floating mx-1">
+                                            <i class="fab fa-google"></i>
+                                        </button>
+
+                                        <button type="button" class="btn btn-primary btn-floating mx-1">
+                                            <i class="fab fa-twitter"></i>
+                                        </button>
+                                    </div>
+
+                                    <p class="text-center">or:</p>
+
+                                    <!-- Email input -->
+                                    <div class="form-outline mb-4">
+                                        <input type="email" id="loginName" class="form-control" />
+                                        <label class="form-label" for="loginName">Email or username</label>
+                                    </div>
+
+                                    <!-- Password input -->
+                                    <div class="form-outline mb-4">
+                                        <input type="password" id="loginPassword" class="form-control" />
+                                        <label class="form-label" for="loginPassword">Password</label>
+                                    </div>
+
+                                    <!-- 2 column grid layout -->
+                                    <div class="row mb-4">
+                                        <div class="col-md-6 d-flex justify-content-center">
+                                            <!-- Checkbox -->
+                                            <div class="form-check mb-3 mb-md-0">
+                                                <input class="form-check-input" type="checkbox" value="" id="loginCheck"
+                                                    checked />
+                                                <label class="form-check-label" for="loginCheck">
+                                                    Remember me
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 d-flex justify-content-center">
+                                            <!-- Simple link -->
+                                            <a href="#!">Forgot password?</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Submit button -->
+                                    <div class="d-grid gap-2">
+                                        <button type="submit" class="btn btn-primary btn-block mb-3">
+                                            Sign in
+                                        </button>
+                                    </div>
+
+                                    <!-- Register buttons -->
+                                    <div class="text-center">
+                                        <p>Not a member? <a href="#!">Register</a></p>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+                                <form>
+                                    <div class="text-center mb-3">
+                                        <p>Sign up with:</p>
+                                        <button type="button" class="btn btn-primary btn-floating mx-1">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </button>
+
+                                        <button type="button" class="btn btn-primary btn-floating mx-1">
+                                            <i class="fab fa-google"></i>
+                                        </button>
+
+                                        <button type="button" class="btn btn-primary btn-floating mx-1">
+                                            <i class="fab fa-twitter"></i>
+                                        </button>
+                                    </div>
+
+                                    <p class="text-center">or:</p>
+
+                                    <!-- Name input -->
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="registerName" class="form-control" />
+                                        <label class="form-label" for="registerName">Name</label>
+                                    </div>
+
+                                    <!-- Username input -->
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="registerUsername" class="form-control" />
+                                        <label class="form-label" for="registerUsername">Username</label>
+                                    </div>
+
+                                    <!-- Email input -->
+                                    <div class="form-outline mb-4">
+                                        <input type="email" id="registerEmail" class="form-control" />
+                                        <label class="form-label" for="registerEmail">Email</label>
+                                    </div>
+
+                                    <!-- Password input -->
+                                    <div class="form-outline mb-4">
+                                        <input type="password" id="registerPassword" class="form-control" />
+                                        <label class="form-label" for="registerPassword">Password</label>
+                                    </div>
+
+                                    <!-- Repeat Password input -->
+                                    <div class="form-outline mb-4">
+                                        <input type="password" id="registerRepeatPassword" class="form-control" />
+                                        <label class="form-label" for="registerRepeatPassword">Repeat password</label>
+                                    </div>
+
+                                    <!-- Checkbox -->
+                                    <div class="form-check d-flex justify-content-center mb-4">
+                                        <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck"
+                                            checked aria-describedby="registerCheckHelpText" />
+                                        <label class="form-check-label" for="registerCheck">
+                                            I have read and agree to the terms
+                                        </label>
+                                    </div>
+
+                                    <!-- Submit button -->
+                                    <div class="d-grid gap-2">
+                                        <button type="submit" class="btn btn-primary btn-block mb-3">
+                                            Sign up
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 mt-3">
+                    <div class="container-fluid px-5 py-4">
+                        <h4 class="text-center mb-5 mt-3">Validation Form</h4>
+                        <form class="was-validated">
+                            <div class="mb-3 pb-1">
+                                <div class="form-outline">
+                                    <textarea class="form-control is-valid" id="validationTextarea"
+                                        placeholder="Required example textarea" required></textarea>
+                                    <label for="validationTextarea" class="form-label">Textarea</label>
+                                    <div class="invalid-feedback">
+                                        Please enter a message in the textarea.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input type="checkbox" class="form-check-input" id="validationFormCheck1" required />
+                                <label class="form-check-label" for="validationFormCheck1">Check this checkbox</label>
+                                <div class="invalid-feedback">
+                                    Example invalid feedback text
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" id="validationFormCheck2"
+                                    name="radio-stacked" required />
+                                <label class="form-check-label" for="validationFormCheck2">Toggle this radio</label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input type="radio" class="form-check-input" id="validationFormCheck3"
+                                    name="radio-stacked" required />
+                                <label class="form-check-label" for="validationFormCheck3">Or toggle this other
+                                    radio</label>
+                                <div class="invalid-feedback">
+                                    More example invalid feedback text
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="file" class="form-control" aria-label="file example" required />
+                                <div class="invalid-feedback">
+                                    Example invalid form file feedback
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <button class="btn btn-primary" type="submit" disabled>
+                                    Submit form
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-6 mt-3">
+                    <div class="container-fluid px-5 py-4">
+                        <h4 class="text-center mb-5 mt-3">Student Submit Form</h4>
+                        <form class="row g-3 needs-validation pb-5" novalidate>
+                            <div class="col-md-4">
+                                <label for="validationCustom01" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="validationCustom01" value="Mark" required />
+                                <div class="valid-feedback">Looks good!</div>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="validationCustom02" class="form-label">Last name</label>
+                                <input type="text" class="form-control" id="validationCustom02" value="Otto" required />
+                                <div class="valid-feedback">Looks good!</div>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="validationCustomUsername" class="form-label">Username</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                    <input type="text" class="form-control" id="validationCustomUsername"
+                                        aria-describedby="inputGroupPrepend" required />
+                                    <div class="invalid-feedback">
+                                        Please choose a username.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="validationCustom03" class="form-label">Major</label>
+                                <input type="text" class="form-control" id="validationCustom03" required />
+                                <div class="invalid-feedback">
+                                    Please provide a valid major.
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="validationCustom04" class="form-label">Subject</label>
+                                <select class="form-select" id="validationCustom04" required>
+                                    <option selected disabled value="">Choose</option>
+                                    <option>Web Design</option>
+                                    <option>OOP</option>
+                                    <option>Database</option>
+                                    <option>Computer Architecture</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select a valid subject.
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="validationCustom05" class="form-label">ID</label>
+                                <input type="text" class="form-control" id="validationCustom05" required />
+                                <div class="invalid-feedback">Please provide a valid id.</div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck"
+                                        required />
+                                    <label class="form-check-label" for="invalidCheck">
+                                        Agree to terms and conditions
+                                    </label>
+                                    <div class="invalid-feedback">
+                                        You must agree before submitting.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary" type="submit">
+                                    Submit form
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-6 mt-3">
+                    <div class="container-fluid px-5 py-4">
+                        <h4 class="text-center mb-5 mt-3">Checkout form</h4>
+                        <form>
+                            <!-- 2 column grid layout with text inputs for the first and last names -->
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example1" class="form-control" />
+                                        <label class="form-label" for="form6Example1">First name</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example2" class="form-control" />
+                                        <label class="form-label" for="form6Example2">Last name</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Text input -->
+                            <div class="form-outline mb-4">
+                                <input type="text" id="form6Example3" class="form-control" />
+                                <label class="form-label" for="form6Example3">Company name</label>
+                            </div>
+
+                            <!-- Text input -->
+                            <div class="form-outline mb-4">
+                                <input type="text" id="form6Example4" class="form-control" />
+                                <label class="form-label" for="form6Example4">Address</label>
+                            </div>
+
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form6Example5" class="form-control" />
+                                <label class="form-label" for="form6Example5">Email</label>
+                            </div>
+
+                            <!-- Number input -->
+                            <div class="form-outline mb-4">
+                                <input type="number" id="form6Example6" class="form-control" />
+                                <label class="form-label" for="form6Example6">Phone</label>
+                            </div>
+
+                            <!-- Message input -->
+                            <div class="form-outline mb-4">
+                                <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+                                <label class="form-label" for="form6Example7">Additional information</label>
+                            </div>
+
+                            <!-- Checkbox -->
+                            <div class="form-check d-flex justify-content-center mb-4">
+                                <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8"
+                                    checked />
+                                <label class="form-check-label" for="form6Example8">
+                                    Create an account?
+                                </label>
+                            </div>
+
+                            <!-- Submit button -->
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary btn-block mb-4">
+                                    Place order
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 mt-3">
+                    <div class="container-fluid px-5 py-4">
+                        <h4 class="text-center mb-5 mt-3">Payment Form</h4>
+                        <div class="card">
+                            <div class="card-body p-md-5">
+                                <div>
+                                    <h4>Upgrade your plan</h4>
+                                    <p class="text-muted pb-2">
+                                        Please make the payment to start enjoying all the features
+                                        of our premium plan as soon as possible
+                                    </p>
+                                </div>
+
+                                <div
+                                    class="px-3 py-4 border border-primary border-2 rounded mt-4 d-flex justify-content-between">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <img src="https://i.imgur.com/S17BrTx.webp" class="rounded" width="60" />
+                                        <div class="d-flex flex-column ms-4">
+                                            <span class="h5 mb-1">Small Business</span>
+                                            <span class="small text-muted">CHANGE PLAN</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row align-items-center">
+                                        <sup class="dollar font-weight-bold text-muted">$</sup>
+                                        <span class="h2 mx-1 mb-0">8,350</span>
+                                        <span class="text-muted font-weight-bold mt-2">/ year</span>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-5">Payment details</h4>
+
+                                <div class="mt-4 d-flex justify-content-between align-items-center">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <img src="https://i.imgur.com/qHX7vY1.webp" class="rounded" width="70" />
+                                        <div class="d-flex flex-column ms-3">
+                                            <span class="h5 mb-1">Credit Card</span>
+                                            <span class="small text-muted">1234 XXXX XXXX 2570</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control" placeholder="CVC" style="width: 70px" />
+                                    </div>
+                                </div>
+
+                                <div class="mt-2 d-flex justify-content-between align-items-center">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <img src="https://i.imgur.com/qHX7vY1.webp" class="rounded" width="70" />
+                                        <div class="d-flex flex-column ms-3">
+                                            <span class="h5 mb-1">Credit Card</span>
+                                            <span class="small text-muted">2344 XXXX XXXX 8880</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control" placeholder="CVC" style="width: 70px" />
+                                    </div>
+                                </div>
+
+                                <h6 class="mt-4 mb-3 text-primary text-uppercase">
+                                    ADD PAYMENT METHOD
+                                </h6>
+
+                                <div class="form-outline">
+                                    <input type="text" id="formControlLg" class="form-control form-control-lg" />
+                                    <label class="form-label" for="formControlLg">Email address</label>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="btn btn-primary btn-block btn-lg">
+                                        Proceed to payment
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section: Design Block -->
+    </section>
+    <!-- JAVASCRIPT-->
+    <script src="../js/form.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- JAVASCRIPT -->
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+@media only screen and (max-width: 730px) {
+    .container nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container nav ul {
+        margin-top: 10px;
+    }
+    .main_dashboard .col1{
+       margin: 20px 0;
+    }
+
+    .side2 li  {
+        display: block;
+        text-align: center;
+       
+    }
+   
+  
+  }

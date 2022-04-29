@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- SIDE BAR -->
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <div class="text logo-text">
+                    <span class="name effect">Template </span>
+                    <span class="profession effect">Collection</span>
+                </div>
+            </div>
+
+            <i class="bx bx-chevron-right toggle"></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class="bx bx-search icon"></i>
+                    <input type="text" placeholder="Search..." />
+                </li>
+
+                <li class="nav-links">
+                    <a href="../index.html">
+                        <i class="bx bx-bar-chart-alt-2 icon"></i>
+                        <span class="text nav-text">Dashboard</span>
+                    </a>
+                </li>
+
+                <li class="nav-links">
+                    <a href="SamplePage2.html">
+                        <i class="bx bx-book-open icon"></i>
+                        <span class="text nav-text">Sample Page</span>
+                    </a>
+                </li>
+
+                <li class="nav-links">
+                    <a href="table.html">
+                        <i class="bx bx-table icon"></i>
+                        <span class="text nav-text">Table</span>
+                    </a>
+                </li>
+
+                <li class="nav-links">
+                    <a href="form.html">
+                        <i class="bx bx-log-in icon"></i>
+                        <span class="text nav-text">Form</span>
+                    </a>
+                </li>
+
+                <li class="nav-links">
+                    <a href="newelement.html">
+                        <i class="bx bxs-component icon"></i>
+                        <span class="text nav-text">Element</span>
+                    </a>
+                </li>
+
+                <li class="nav-links">
+                    <a href="animation.html">
+                        <i class="bx bx-font-family icon"></i>
+                        <span class="text nav-text">Animation</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SIDE BAR  -->
+
+    <!-- MAIN SECTION -->
+
+    <section class="home">
+        <div class="text">Table</div>
+        <div class="container-{breakpoint} mx-3">
+            <div class="container-fluid p-3 mx-2">
+                <h4>Basic Table</h4>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Panha</td>
+                                <td>Chom</td>
+                                <td>panha.chom@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Serey Sothirich</td>
+                                <td>Peang</td>
+                                <td>sereysothirich.peang@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Setha</td>
+                                <td>Meanith</td>
+                                <td>setha.meanith@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Soklieng</td>
+                                <td>Phat</td>
+                                <td>soklieng.phat@student.cadt.edu.kh</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="container-fluid p-3 mx-2 mt-3">
+                <h4>Striped Rows</h4>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Panha</td>
+                                <td>Chom</td>
+                                <td>panha.chom@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Serey Sothirich</td>
+                                <td>Peang</td>
+                                <td>sereysothirich.peang@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Setha</td>
+                                <td>Meanith</td>
+                                <td>setha.meanith@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Soklieng</td>
+                                <td>Phat</td>
+                                <td>soklieng.phat@student.cadt.edu.kh</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="container-fluid p-3 mx-2 mt-3">
+                <h4>Bordered Table</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Panha</td>
+                                <td>Chom</td>
+                                <td>panha.chom@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Serey Sothirich</td>
+                                <td>Peang</td>
+                                <td>sereysothirich.peang@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Setha</td>
+                                <td>Meanith</td>
+                                <td>setha.meanith@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Soklieng</td>
+                                <td>Phat</td>
+                                <td>soklieng.phat@student.cadt.edu.kh</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="container-fluid p-3 mx-2 mt-3">
+                <h4>Hover Rows</h4>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Panha</td>
+                                <td>Chom</td>
+                                <td>panha.chom@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Serey Sothirich</td>
+                                <td>Peang</td>
+                                <td>sereysothirich.peang@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Setha</td>
+                                <td>Meanith</td>
+                                <td>setha.meanith@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Soklieng</td>
+                                <td>Phat</td>
+                                <td>soklieng.phat@student.cadt.edu.kh</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="container-fluid p-3 mx-2 mt-3">
+                <h4>Variants</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered border-info">
+                        <thead>
+                            <tr>
+                                <th>Contextual Classes</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-primary">
+                                <td>Primary</td>
+                                <td>Blue: Indicates an important action</td>
+                            </tr>
+                            <tr class="table-success">
+                                <td>Success</td>
+                                <td>Green: Indicates a successful or positive action</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>Danger</td>
+                                <td>Red: Indicates a dangerous or potentially negative action</td>
+
+                            </tr>
+                            <tr class="table-info">
+                                <td>Info</td>
+                                <td>Light blue: Indicates a neutral informative change or action</td>
+
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Warning</td>
+                                <td>Orange: Indicates a warning that might need attention</td>
+
+                            </tr>
+                            <tr class="table-active">
+                                <td>Active</td>
+                                <td>Grey: Applies the hover color to the table row or table cell</td>
+
+                            </tr>
+                            <tr class="table-secondary">
+                                <td>Secondary</td>
+                                <td>Grey: Indicates a slightly less important action</td>
+
+                            </tr>
+                            <tr class="table-light">
+                                <td>Light</td>
+                                <td>Light grey table or table row background</td>
+
+                            </tr>
+                            <tr class="table-dark">
+                                <td>Dark</td>
+                                <td>Dark grey table or table row background</td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="container-fluid p-3 mx-2 mt-3">
+                <h4>Background Color</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered border-info">
+                        <thead>
+                            <tr>
+                                <th>Contextual Classes</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-primary">
+                                <td>Primary</td>
+                                <td>Blue: Indicates an important action</td>
+                            </tr>
+                            <tr class="bg-success">
+                                <td>Success</td>
+                                <td>Green: Indicates a successful or positive action</td>
+                            </tr>
+                            <tr class="bg-danger">
+                                <td>Danger</td>
+                                <td>Red: Indicates a dangerous or potentially negative action</td>
+                            </tr>
+                            <tr class="bg-info">
+                                <td>Info</td>
+                                <td>Light blue: Indicates a neutral informative change or action</td>
+                            </tr>
+                            <tr class="bg-warning">
+                                <td>Warning</td>
+                                <td>Orange: Indicates a warning that might need attention</td>
+                            </tr>
+                            <tr class="bg-active">
+                                <td>Active</td>
+                                <td>Grey: Applies the hover color to the table row or table cell</td>
+                            </tr>
+                            <tr class="bg-secondary">
+                                <td>Secondary</td>
+                                <td>Grey: Indicates a slightly less important action</td>
+                            </tr>
+                            <tr class="bg-light">
+                                <td>Light</td>
+                                <td>Light grey table or table row background</td>
+                            </tr>
+                            <tr class="bg-dark">
+                                <td>Dark</td>
+                                <td>Dark grey table or table row background</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="container-fluid p-3 mx-2 mt-3">
+                <h4>Black/Dark Table</h4>
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Panha</td>
+                                <td>Chom</td>
+                                <td>panha.chom@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Serey Sothirich</td>
+                                <td>Peang</td>
+                                <td>sereysothirich.peang@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Setha</td>
+                                <td>Meanith</td>
+                                <td>setha.meanith@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Soklieng</td>
+                                <td>Phat</td>
+                                <td>soklieng.phat@student.cadt.edu.kh</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="container-fluid p-3 mx-2 mt-3">
+                <h4>Borderless Table</h4>
+                <div class="table-responsive">
+                    <table class="table table-borderless bg-warning">
+                        <thead>
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Panha</td>
+                                <td>Chom</td>
+                                <td>panha.chom@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Serey Sothirich</td>
+                                <td>Peang</td>
+                                <td>sereysothirich.peang@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Setha</td>
+                                <td>Meanith</td>
+                                <td>setha.meanith@student.cadt.edu.kh</td>
+                            </tr>
+                            <tr>
+                                <td>Soklieng</td>
+                                <td>Phat</td>
+                                <td>soklieng.phat@student.cadt.edu.kh</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="container-fluid p-3 mx-2 mt-3">
+                <h4>Responsive Table</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered border-info table-info">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Age</th>
+                                <th>City</th>
+                                <th>Country</th>
+                                <th>Sex</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Panha</td>
+                                <td>Chom</td>
+                                <td>18</td>
+                                <td>Phnom Penh</td>
+                                <td>Cambodia</td>
+                                <td>Male</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Serey Sothirich</td>
+                                <td>Peang</td>
+                                <td>18</td>
+                                <td>Phnom Penh</td>
+                                <td>Cambodia</td>
+                                <td>Male</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Setha</td>
+                                <td>Meanith</td>
+                                <td>18</td>
+                                <td>Phnom Penh</td>
+                                <td>Cambodia</td>
+                                <td>Male</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Soklieng</td>
+                                <td>Phat</td>
+                                <td>18</td>
+                                <td>Phnom Penh</td>
+                                <td>Cambodia</td>
+                                <td>Male</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="container-fluid p-3 mx-2 mt-3">
+                <h4>Team Table Sample</h4>
+                <div class="table-responsive">
+                    <table class="table align-middle mb-0 bg-white table-success table-bordered border-success">
+                        <thead class="bg-light">
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Gender</th>
+                                <th>Title</th>
+                                <th>Status</th>
+                                <th>Position</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>B20210024</td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="../image/panha.jpg" class="rounded-circle" alt=""
+                                            style="width: 45px; height: 45px" />
+                                        <div class="ms-3">
+                                            <p class="fw-bold mb-1">Panha Chom</p>
+                                            <p class="text-muted mb-0">panha.chom@student.cadt.edu.kh</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>Male</td>
+                                <td>
+                                    <p class="fw-normal mb-1">Web Designer</p>
+                                    <p class="text-muted mb-0">Computer Science</p>
+                                </td>
+                                <td>
+                                    <span class="badge rounded-pill bg-info">Single</span>
+                                </td>
+                                <td>Senior</td>
+                                <td>
+                                    <a href="#edit" class="btn btn-danger stretched-link">Edit</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>B20210088</td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="../image/rich.jpg" class="rounded-circle" alt=""
+                                            style="width: 45px; height: 45px" />
+                                        <div class="ms-3">
+                                            <p class="fw-bold mb-1">Serey Sothirich Peang</p>
+                                            <p class="text-muted mb-0">sereysothirich.peang@student.cadt.edu.kh</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>Male</td>
+                                <td>
+                                    <p class="fw-normal mb-1">Web Designer</p>
+                                    <p class="text-muted mb-0">Computer Science</p>
+                                </td>
+                                <td>
+                                    <span class="badge rounded-pill bg-info">Single</span>
+                                </td>
+                                <td>Senior</td>
+                                <td>
+                                    <a href="#edit" class="btn btn-danger stretched-link">Edit</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>B20210069</td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="../image/setha.jpg" class="rounded-circle" alt=""
+                                            style="width: 45px; height: 45px" />
+                                        <div class="ms-3">
+                                            <p class="fw-bold mb-1">Setha Meanith</p>
+                                            <p class="text-muted mb-0">setha.meanith@student.cadt.edu.kh</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>Male</td>
+                                <td>
+                                    <p class="fw-normal mb-1">Web Designer</p>
+                                    <p class="text-muted mb-0">Computer Science</p>
+                                </td>
+                                <td>
+                                    <span class="badge rounded-pill bg-info">Single</span>
+                                </td>
+                                <td>Senior</td>
+                                <td>
+                                    <a href="#edit" class="btn btn-danger stretched-link">Edit</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>B20210091</td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="../image/soklieng.jpg" class="rounded-circle" alt=""
+                                            style="width: 45px; height: 45px" />
+                                        <div class="ms-3">
+                                            <p class="fw-bold mb-1">Soklieng Phat</p>
+                                            <p class="text-muted mb-0">soklieng.phat@student.cadt.edu.kh</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>Male</td>
+                                <td>
+                                    <p class="fw-normal mb-1">Web Designer</p>
+                                    <p class="text-muted mb-0">Computer Science</p>
+                                </td>
+                                <td>
+                                    <span class="badge rounded-pill bg-info">Single</span>
+                                </td>
+                                <td>Senior</td>
+                                <td>
+                                    <a href="#edit" class="btn btn-danger stretched-link">Edit</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- JAVASCRIPT -->
+    <script src="../js/main.js"></script>
+    <!-- JAVASCRIPT -->
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+@media only screen and (max-width: 960px) {
+    .container {width: 100%;}
+    .container nav {
+        flex-direction: column;
+       
+    }
+    .container nav ul {
+        margin-top: 10px;
+    }
+
+
+    .graph .col1{
+        width: 650px;
+       
+      }
+
+      .con_pie {
+        width: 280px;
+        margin-left: 10px;
+    }
+
+    .pie_container .col1 {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .pie_container .col2  {
+        margin-top: 15px;
+        border-radius: 20px;
+
+    }
+  }
+
+
+
+@media only screen and (max-width:900px){
+    .graph .col1{
+        width: 450px;
+       
+      }
+     
+
+     
+
+
+
+
+    
+}
+
+
+
+@media only screen and (max-width:1040px){
+    
+.table_container .col {
+    flex-basis: 90%;
+}
+
+     
+
+
+
+
+    
+}
+
+
+
+@media only screen and (max-width:950px){
+    
+  
+ 
+    td {
+        font-size: 0.6rem;
+    }
+    th ,td {
+        padding: 15px;
+    }
+    
+    .td-icon i{
+        margin: 0 7px;
+    }
+    .th-2 a {
+        text-decoration: none;
+        color :rgb(23, 117, 172);
+        background-color: transparent;
+        padding:3px 5px;
+        font-size: 0.5rem;
+        border-radius: 3px;
+    }
+    
+    
+        
+    }
+
+
+
+
+    @media only screen and (max-width:900px){
+    
+  
+        .wavy ,  .reveal span ,  .shiny ,  .wrapper {
+            font-size: 1rem;
+           letter-spacing: 5px;
+        }
+        
+        
+            
+        }
+
+
+        @media only screen and (max-width:730px){
+    
+  
+            .wavy ,  .reveal span ,  .shiny ,  .wrapper {
+                font-size: 0.7rem;
+               letter-spacing:3px;
+            }
+            
+            
+                
+            }
